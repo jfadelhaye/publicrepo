@@ -1,0 +1,10 @@
+version: "3"
+    
+services:
+  wordpress:
+    image: nginx:latest
+    restart: always
+    environment:
+      FOOT: BALOON
+      HAND: BALL
+
