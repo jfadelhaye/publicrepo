@@ -6,5 +6,5 @@ services:
     restart: always
     environment:
       FOOT: BALOON
-      HAND: BALL
+      HAND: OFF
 
