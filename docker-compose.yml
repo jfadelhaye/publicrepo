@@ -6,7 +6,3 @@ services:
     volumes:
       - ./dir:/tmp/static
     restart: always
-    environment:
-      FOOT: BALOON
-      HAND: OFF
-
