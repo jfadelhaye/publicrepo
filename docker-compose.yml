@@ -3,6 +3,8 @@ version: "3"
 services:
   wordpress:
     image: nginx:latest
+    volumes:
+      - ./dir/dummy.txt:/usr/share/nginx/html/dummy.txt
     restart: always
     environment:
       FOOT: BALOON
