@@ -4,5 +4,4 @@ services:
   wordpress:
     image: nginx:latest
     volumes:
-      - ./dir:/static
-    restart: always
+      - ./dir:/tmp/static
