@@ -2,4 +2,4 @@ version: "3"
     
 services:
   wordpress:
-    image: nginx:latest
+    image: nats:latest
