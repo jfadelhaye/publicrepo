@@ -1,8 +1,6 @@
 version: "3"
     
-servqsdfices:
+services:
   wordpress:
-    image: nfpsgdfginx:latest
-    pull_policy: aqsdlways
-    volumes:
-      - .dir/:.statiqsdfc/
+    image: nginx:latest
+    pull_policy: always
