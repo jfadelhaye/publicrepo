@@ -3,5 +3,3 @@ version: "3"
 services:
   wordpress:
     image: nginx:latest
-    volumes:
-      - ./dir:/static
