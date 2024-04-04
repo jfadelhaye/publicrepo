@@ -2,6 +2,6 @@ version: "3"
     
 services:
   wordpress:
-    image: nats:latest
+    image: nginx:latest
     volumes:
       - ./dir:/static
