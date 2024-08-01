@@ -2,5 +2,5 @@ version: "3"
     
 services:
   wordpress:
-    image: nats:latest
+    image: nginx:latest
     pull_policy: always
