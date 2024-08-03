@@ -2,5 +2,5 @@ version: "3"
     
 services:
   wordpress:
-    image: nginx:latest
+    image: nginx:alpine
     pull_policy: always
