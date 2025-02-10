@@ -2,7 +2,7 @@ version: "3"
     
 services:
   wordpress:
-    image: nginx:alpine
+    image: nats
     volumes:
         - ./dir/dummy.txt:/tmp/dummy
     
